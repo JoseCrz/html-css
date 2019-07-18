@@ -7,6 +7,7 @@
     --dark-accent-color: #F29C3C;
     --dark-primary-text: #212121;
     --light-primary-text: #757575;
+    --divider-color: #BDBDBD;
 }
 
 body, html {
@@ -81,6 +82,7 @@ nav ul li a:hover {
 
 .product .content {
     background: white;
+    border-radius: 5px;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
@@ -120,4 +122,27 @@ nav ul li a:hover {
 .product-button:active {
     transform: translateY(3px);
     background: var(--dark-accent-color);
+}
+
+#info {
+    text-align: center;
+    border-bottom: 1px solid var(--divider-color);
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-card {
+    max-width: 300px;
+    /* background: white; */
+    border-radius: 5px;
+    text-align: center;
 }

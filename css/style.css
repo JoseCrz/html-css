@@ -62,42 +62,42 @@ footer {
     background: var(--primary-color);
 }
 
-.hero h1 {
-    font-size: 36px;
+.hero {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center top;
+    padding: 100px 0;
 }
-
-
 .logo img {
     width: 50px;
 }
 
-.main-section {
+.hero h1 {
+    font-size: 72px;
     text-align: center;
-    padding: 10%;
+    margin-top: 0;
+    color: var(--light-primary-color);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, .4);
 }
 
-.products {
-    background-image: url("../img/curve.png");
-    max-height: 1px;
-    background-size: cover;
-    background-position: center top;
-    display: flex; 
-    padding: 15%;
+.products-container {
+    display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.product {
-    padding: 10px;
-    margin-top: -400px;
+.product-card img {
+    width: 300px;
 }
 
-.product .content {
+.product-card {
     background: white;
     border-radius: 5px;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    margin: 15px;
 }
 
 .product .content h1 {

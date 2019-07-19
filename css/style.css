@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
 :root {
+    --primary-color: #9E9E9E;
     --dark-primary-color: #616161;
     --light-primary-color: #F5F5F5;
     --light-accent-color: #FADA61;
@@ -49,6 +50,16 @@ nav ul li a {
 
 nav ul li a:hover {
     color: var(--light-accent-color);
+}
+
+section {
+    border-bottom: 1px solid var(--divider-color);
+    padding-top: 25px;
+    padding-bottom: 100px;
+}
+
+footer {
+    background: var(--primary-color);
 }
 
 .hero h1 {
@@ -126,18 +137,16 @@ nav ul li a:hover {
 
 #info {
     text-align: center;
-    border-bottom: 1px solid var(--divider-color);
-    padding-top: 25px;
-    padding-bottom: 100px;
 }
 
 .section-title {
     margin-bottom: 50px;
 }
 
-.info-container {
+.cards-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .info-card {
@@ -146,3 +155,50 @@ nav ul li a:hover {
     border-radius: 5px;
     text-align: center;
 }
+
+#staff h2 {
+    text-align: center;
+}
+
+.staff-card {
+    max-width: 300px;
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.25);
+}
+
+.staff-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.staff-details {
+    padding: 20px;
+    margin-top: -30px;
+}
+
+footer {
+    padding-top: 25px;
+}
+
+footer h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+footer p a {
+    margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+

@@ -109,7 +109,7 @@ footer {
 }
 
 .img-container img {
-    width: 100%;
+    width: 350px;
 }
 
 .button-container {
@@ -245,6 +245,10 @@ footer p a {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
+}
+
+.col-img-container img {
+    width: 100%;
 }
 
 .form label {

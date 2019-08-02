@@ -243,18 +243,14 @@ footer p a {
 .grid-container {
     max-width: 1000px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .row {
     display: flex;
-    border: 1px solid blue;
 }
 
 [class*="col-"] {
     padding: 10px;
-    border: 1px solid red;
-
 }
 
 .col-1 {

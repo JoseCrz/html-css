@@ -238,11 +238,18 @@ footer p a {
     animation-fill-mode: both;
 }
 
+.form {
+    background: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
+}
 
 /* GRID SYSTEM */
 .grid-container {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .row {

@@ -242,15 +242,15 @@ footer p a {
     margin: 0 10px;
     background: white;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5 );
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0, .5);
 }
 
 .form label {
+    display: block;
     margin-top: 10px;
     font-size: 18px;
-    display: block;
 }
 
 .form input {
@@ -258,6 +258,16 @@ footer p a {
     height: 35px;
     border-radius: 5px;
     border: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.form-button {
+    font-size: 24px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: var(--light-accent-color);
+    color: white;
+    width: 100%;
 }
 
 /* GRID SYSTEM */

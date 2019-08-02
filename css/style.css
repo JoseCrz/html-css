@@ -108,6 +108,10 @@ footer {
     text-align: center;
 }
 
+.img-container img {
+    width: 100%;
+}
+
 .button-container {
     text-align: center;
 }

@@ -64,6 +64,7 @@ footer {
 
 .hero {
     background-image: url("../img/background.jpg");
+    background: linear-gradient(to top, #808080, #E6E6E6);
     background-size: cover;
     background-position: center top;
     padding: 100px 0;
